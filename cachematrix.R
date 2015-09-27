@@ -13,7 +13,6 @@
 
 # Notes:
 
-
 makeCacheMatrix <- function(x = numeric()) {
 
 # holds the cached value or NULL if nothing is cached
@@ -37,19 +36,11 @@ cache <<- NULL
 
 }
 
-
-
-
-
 # returns the stored matrix
 
 
 getMatrix <- function() {
-
-
 x
-
-
 }
 
 
@@ -83,9 +74,6 @@ cache
 }
 
 
-
-
-
 # return a list. Each named element of the list is a function
 
 
@@ -93,11 +81,6 @@ list(setMatrix = setMatrix, getMatrix = getMatrix, cacheInverse = cacheInverse, 
 
 
 }
-
-
-
-
-
 
 
 
